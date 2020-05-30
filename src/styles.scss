@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	border: 1px solid black;
+}
+
+.grid {
+	display: grid;
+	grid-template: repeat(3, 100px) / repeat(3, 100px);
+}
+
+.tile {
+	&:hover {
+		cursor: pointer;
+		background: #ddd;
+	}
+}
+
+.material-icons {
+	margin: 5px;
+	font-size: 550%;
+}
+
